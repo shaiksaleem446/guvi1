@@ -10,6 +10,11 @@ int main()
     {
         printf("Vowels");
     }
+    else if (a=='!'|| a=='@'|| a=='#'|| a=='$'|| a=='%'|| a=='^'|| a=='&'|| a=='*')
+    {
+        printf("Invalid");
+    }
+    
     else
     {
         printf("Consonant");
